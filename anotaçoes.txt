@@ -1,0 +1,68 @@
+variaveis podem começar com letra, $ ou _
+
+não podem começar com números
+
+é possível usar letras ou números
+
+é possível usar acentos e símbolos
+
+não podem ontas espaços
+
+não podem ser palavras reservadas
+
+
+
+Maiusculas e minusculas fazem diferença
+tente escolher nomes coerentes para a variavel
+
+tipos primitivos
+
+number = numeros
+
+string = caracteres
+
+boolean = true or false
+
+typeof + nomedavariavel, mostra o tipo da variavel
+
+variaveis podem ser var ou let
+
+cria a variavel e já atribui valor
+var nome = "david"
+
+atribui valor a variavel
+nome = "uchiha"
+
+
+Converter srting para numero
+
+Number.parseInt(n) para inteiro
+Number.parseFloat(n) para real
+Number(n)
+
+Numero para string
+
+string(n)
+n.toString()
+
+
+nome = david
+'O aluno ' + nome // concatenação
+`O aluno ${nome}` // template string
+
+Formatar strings
+
+nome.lenght - me diz quantas letras tem
+nome.toUppercase() - tudo para maiusculas
+nome.toLowercase() - tudo para minusculas
+
+
+Formatar numeros
+
+n1 = 1545.5
+n1.toFixed(2) = 1545.50
+n1.toFixed(2).replace('.', ',') = 1545,50
+n1.toLocaleString('pt-BR', {style: 'currency', currency: 'BRL'}) = R$ 1.545,50
+n1.toLocaleString('pt-BR', {style: 'currency', currency: 'USD'}) = US$ 1.545,50
+
+
