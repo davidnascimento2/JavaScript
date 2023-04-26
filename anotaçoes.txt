@@ -66,3 +66,37 @@ n1.toLocaleString('pt-BR', {style: 'currency', currency: 'BRL'}) = R$ 1.545,50
 n1.toLocaleString('pt-BR', {style: 'currency', currency: 'USD'}) = US$ 1.545,50
 
 
+Operadores Aritméticos 
+
++ adição
+- subtração
+* multiplicação
+/ divisão
+% resto da divisão
+** potência
+
+Ordem de precedência
+
+()
+**
+* / %
++ -
+
+Atribuição simples
+
+var a = 5 + 3 // = recebe   8
+var b = a % 5 // 3
+var c = 5 * b ** 2 // 45
+var d = 10 - a / 2 // 6
+var e = 6 * 2 / d // 2
+var f = b % e + 4 / e // 3
+
+Auto-Atribuição
+var n = 3
+n = n + 4  // 7 ou n += 4
+
+Incremento
+
+var x = 5
+x = x + 1 // 6    ou x++
+x = x - 1 // 5    ou x--
