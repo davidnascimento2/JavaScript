@@ -100,3 +100,70 @@ Incremento
 var x = 5
 x = x + 1 // 6    ou x++
 x = x - 1 // 5    ou x--
+
+Relacionais
+
+5 > 2 maior  // true
+7 < 4 menor // false
+8 >= 8 maior ou igual // true
+9 <= 7 menor ou igual // false
+5 == 5 igual // true
+4 != 4 diferente // false
+
+Operador de identidade restrita
+
+5 == 5 // true
+5 == "5" // true
+5 === "5" // false
+5 != 5 // false
+5 !== "5" // true
+
+Operadores Lógicos
+
+! negação
+&& conjunção
+|| disjunção
+
+true && true // true
+true && false // false
+false && true // false 
+false && false // false
+
+true || true // true
+true || false // true
+false || true // true
+false || false // false
+
+Exemplo:
+
+a = 5
+b = 8
+a > b && b % 2 == 0  //  false
+a <= b || b / 2 == 2   // true
+Ordem de execução, aritméticos, relacionais, lógicos.
+
+Ordem de execução, primeiro o não, e ou.
+
+Ordem de precedência
+
+() ** / ...
+> < >= ...
+!
+&&
+||
+
+Operador ternário
+? :
+
+media >= 7.0 ? "Aprovado" : "Reprovado"
+
+Exemplo 1
+var x = 8
+var res = x % 2 == 0 ? 5:9
+x = 8 
+res = 5
+
+Exemplo 2
+var idade = 19
+var r = idade >=18 ? "MAIOR":"MENOR"
+r = maior
