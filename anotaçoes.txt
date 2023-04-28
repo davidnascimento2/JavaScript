@@ -167,3 +167,22 @@ Exemplo 2
 var idade = 19
 var r = idade >=18 ? "MAIOR":"MENOR"
 r = maior
+
+watch in chrome - extensão
+node exec - extensão - f8 para rodar javascript pelo node
+
+DOM - document object model
+
+window >> location - document - history
+document >> html
+html >> head - body
+head >> meta - title
+body >> h1, p...etc
+
+Selecionar Elementos
+
+por marca - getElementByTagName()
+por id - getElementById()
+por Nome - getElementsByName()
+por Classe - getElementsByClassName()
+por Seletor - querySelector()  querySelectorAll()
