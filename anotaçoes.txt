@@ -186,3 +186,15 @@ por id - getElementById()
 por Nome - getElementsByName()
 por Classe - getElementsByClassName()
 por Seletor - querySelector()  querySelectorAll()
+
+
+Eventos DOM
+mouseenter - chega o mouse dentro da div, entrou na div.
+mousemove - movendo o mouse
+mousedown - clique mouse mouseuop- soltou o click
+click - clique completo do mouse
+mouseup - quando o mouse sai da div
+
+Funções
+
+Conjunto de linhas que serão executadas mediante evento
