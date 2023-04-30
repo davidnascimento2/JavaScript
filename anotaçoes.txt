@@ -198,3 +198,5 @@ mouseup - quando o mouse sai da div
 Funções
 
 Conjunto de linhas que serão executadas mediante evento
+
+Condições
