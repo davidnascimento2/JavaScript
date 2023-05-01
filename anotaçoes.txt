@@ -200,3 +200,15 @@ Funções
 Conjunto de linhas que serão executadas mediante evento
 
 Condições
+
+Condição simples
+if (condição) {
+    true
+}
+
+Condição
+if (condição) {
+    true
+} else {
+    false
+}
