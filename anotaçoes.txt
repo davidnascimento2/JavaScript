@@ -206,9 +206,36 @@ if (condição) {
     true
 }
 
-Condição
+Condição composta
 if (condição) {
     true
 } else {
     false
+}
+
+Condição aninhada
+if (cond1) {
+    bloco1
+} else {
+    if (cond2) {
+        bloco2
+    } else {
+        bloco3
+    }
+}
+
+Condição múltipla
+switch (expressão) {
+    case valor1:
+
+        break
+    case valor2:
+
+        break
+    case valor3:
+
+        break
+    default:
+
+        break
 }
